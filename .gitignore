@@ -1,0 +1,19 @@
+# Ambientes
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Credenciais - NUNCA versionar
+*.pem
+*credentials*
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
